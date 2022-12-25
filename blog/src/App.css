@@ -2,37 +2,103 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100vw;
+  height: 9vh;
+  background-color: skyblue;
 }
 
-.App-link {
-  color: #61dafb;
+.nav_inner{
+  font-size: 20px;
+  margin-left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.documents{
+  width: 360px;
+  height: 350px;
+  background-image: url(./img/documents.png);
+}
+
+.logoBox{
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+.HTML{
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/HTML.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.CSS{
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/CSS.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.JavaScript{
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/JavaScript.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.React{
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/React.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.Python{
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/Python.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.viewport{
+  display: flex;
+  border: solid;
+}
+
+.list{
+  width: 20vw;
+  height: 100vh;
+  background-color: rgb(198, 231, 245);
+}
+
+.inner_list{
+  display: flex;
+}
+
+.space{
+  width: auto;
+}
+
+.contentBox{
+  width: 80vw;
+  height: 100vh;
+  background-color: rgb(219, 249, 249);
 }
